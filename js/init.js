@@ -149,6 +149,19 @@
       var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
                '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
 
+      Email.send({
+        Host: "smtp.gmail.com",
+        Username: "itsmanikandanraju@gmail.com",
+        Password: "Letsride@100",
+        To: "itsmanikandanraju@gmail.com",
+        From: contactEmail,
+        Subject: contactSubject,
+        Body: contactMessage,
+      })
+        .then(function (message) {
+          alert("mail sent successfully")
+        });
+
       $.ajax({
 
 	      type: "POST",
