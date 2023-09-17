@@ -151,10 +151,10 @@
 
       Email.send({
         Host: "smtp.gmail.com",
-        Username: "itsmanikandanraju@gmail.com",
-        Password: "Letsride@100",
-        To: "itsmanikandanraju@gmail.com",
-        From: contactEmail,
+        Username: "mani.13jan98@gmail.com",
+        Password: "massmani",
+        To: contactEmail,
+        From: "mani.13jan98@gmail.com",
         Subject: contactSubject,
         Body: contactMessage,
       })
