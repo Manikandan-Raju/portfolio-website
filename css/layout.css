@@ -324,33 +324,33 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
+.python {
   	width: 90%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.illustrator {
+.capl {
   	width: 70%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.wordpress {
-  	width: 90%;
+.shell {
+  	width: 80%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
-.css {
+.automationdesk {
   	width: 60%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
-.html5 {
+.configurationdesk {
   	width: 70%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 40%;
+.canoe {
+  	width: 80%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
